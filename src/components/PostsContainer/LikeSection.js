@@ -6,9 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons'
 
 const LikeSection = props => {
-  //const {passedProps}=props
-  console.log(props)
+console.log(props)
 
+// const addLikes = event =>{
+//   //event.preventDefault()
+//   return(props.likes + 1)
+// }
   return (
     <div>
       <div
@@ -22,7 +25,7 @@ const LikeSection = props => {
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className="like-number">27 likes</p>
+      <p className="like-number">21 likes</p>
     </div>
   )
 };
