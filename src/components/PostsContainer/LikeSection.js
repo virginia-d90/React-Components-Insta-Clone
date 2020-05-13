@@ -12,6 +12,11 @@ console.log(props)
 //   //event.preventDefault()
 //   return(props.likes + 1)
 // }
+// const addLikes =  event =>{
+//   props.likes.map(item=>{
+//     return item + 1
+//   })
+// }
   return (
     <div>
       <div
@@ -19,13 +24,13 @@ console.log(props)
         key="likes-icons-container"
       >
         <div className="like-section-wrapper">
-          <FontAwesomeIcon icon={faHeart} />
+          <FontAwesomeIcon icon={faHeart}  />
         </div>
         <div className="like-section-wrapper">
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className="like-number">{} likes</p>
+      <p className="like-number">{props.likes} likes</p>
     </div>
   )
 };
