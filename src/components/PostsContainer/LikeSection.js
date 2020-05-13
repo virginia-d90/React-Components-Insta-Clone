@@ -25,7 +25,7 @@ console.log(props)
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className="like-number">21 likes</p>
+      <p className="like-number">{} likes</p>
     </div>
   )
 };
